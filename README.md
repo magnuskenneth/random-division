@@ -1,4 +1,4 @@
-# Random division
+# Random division [![Build Status](https://travis-ci.org/magnuskenneth/random-division.svg?branch=master)](https://travis-ci.org/magnuskenneth/random-division)
 Get random values from an array divided into one or more groups.
 
 # Install
