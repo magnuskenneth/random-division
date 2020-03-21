@@ -1,15 +1,27 @@
 {
   "name": "random-division",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Get random values from an array divided into one or more groups.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "author": "Magnus Sillén",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "jest": "^25.1.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magnuskenneth/random-division.git"
+  },
+  "keywords": [
+    "random",
+    "division"
+  ],
+  "bugs": {
+    "url": "https://github.com/magnuskenneth/random-division/issues"
+  },
+  "homepage": "https://github.com/magnuskenneth/random-division#readme"
 }
