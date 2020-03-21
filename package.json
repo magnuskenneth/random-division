@@ -1,0 +1,16 @@
+{
+  "name": "random-division",
+  "version": "0.1.0",
+  "description": "Get random values from an array divided into one or more groups.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel index.js -o build/index.js"
+  },
+  "author": "Magnus Sillén",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "dependencies": {}
+}
