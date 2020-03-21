@@ -4,8 +4,7 @@
   "description": "Get random values from an array divided into one or more groups.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "build": "babel index.js -o build/index.js"
+    "test": "jest"
   },
   "author": "Magnus Sillén",
   "license": "ISC",
