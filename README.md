@@ -9,14 +9,14 @@ Get random values from an array divided into one or more groups.
 ## getRandomValuesInGroups
 Pick any number of random values from an array divided into groups.
 
-Lets say you have a group of characters you want to divide into two teams
+Lets say you have a group of characters you want to divide into two teams.
 
 Example:
 ```
-const { getRandomValuesInGroups } = require('./index.js');
+const { getRandomValuesInGroups } = require('random-division');
 
 const characters = ['Yoda', 'Leia', 'Luke', 'R2D2'];
-const teams = getRandomValuesInGroups(characters, characters.length, nrOfTeams);
+const teams = getRandomValuesInGroups(characters, characters.length, 2);
 
 // The result will be two randomized teams e.g.
 // [
@@ -29,7 +29,7 @@ const teams = getRandomValuesInGroups(characters, characters.length, nrOfTeams);
 Get any number of random values from an array.
 
 ```
-const { getRandomValues } = require('./index.js');
+const { getRandomValues } = require('random-division');
 
 const characters = ['Yoda', 'Leia', 'Luke', 'R2D2'];
 const values getRandomValues(characters, 2);
@@ -42,7 +42,7 @@ const values getRandomValues(characters, 2);
 Get a random value from an array.
 
 ```
-const { getRandomValue } = require('./index.js');
+const { getRandomValue } = require('random-division');
 
 const characters = ['Yoda', 'Leia', 'Luke', 'R2D2'];
 const character = getRandomValue(characters);
@@ -54,10 +54,10 @@ const character = getRandomValue(characters);
 Get a random index from an array.
 
 ```
-const { getRandomIndex } = require('./index.js');
+const { getRandomIndex } = require('random-division');
 
 const characters = ['Yoda', 'Leia', 'Luke', 'R2D2'];
 const index = getRandomIndex(characters);
 
-// index will be 0-3
+// index will be a number between 0 and 3
 ```
