@@ -1,6 +1,6 @@
 {
   "name": "random-division",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get random values from an array divided into one or more groups.",
   "main": "index.js",
   "scripts": {
