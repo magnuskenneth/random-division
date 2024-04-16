@@ -1,17 +1,21 @@
-# Random division [![Build Status](https://travis-ci.org/magnuskenneth/random-division.svg?branch=master)](https://travis-ci.org/magnuskenneth/random-division)
+# Random division
+
 Get random values from an array divided into one or more groups.
 
 # Install
+
 `npm install random-division`
 
 # API
 
 ## getRandomValuesInGroups
+
 Pick any number of random values from an array divided into groups.
 
 Lets say you have a group of characters you want to divide into two teams.
 
 Example:
+
 ```
 const { getRandomValuesInGroups } = require('random-division');
 
@@ -26,6 +30,7 @@ const teams = getRandomValuesInGroups(characters, characters.length, 2);
 ```
 
 ## getRandomValues
+
 Get any number of random values from an array.
 
 ```
@@ -39,6 +44,7 @@ const values getRandomValues(characters, 2);
 ```
 
 ## getRandomValue
+
 Get a random value from an array.
 
 ```
@@ -51,6 +57,7 @@ const character = getRandomValue(characters);
 ```
 
 ## getRandomIndex
+
 Get a random index from an array.
 
 ```
