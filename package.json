@@ -8,10 +8,9 @@
   },
   "author": "Magnus Sillén",
   "license": "MIT",
-  "devDependencies": {
-    "jest": "^25.1.0"
+  "dependencies": {
+    "jest": "^29.7.0"
   },
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/magnuskenneth/random-division.git"
